@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Review budget",
+        "description": "Analyze expenses and create a plan to reduce costs",
+        "due_date": "2023-03-10",
+        "priority": "1"
+    },
+    {
+        "id": 2,
+        "title": "Attend client meeting",
+        "description": "Present new product features and gather feedback",
+        "due_date": "2023-03-15",
+        "priority": "2"
+    },
+    {
+        "id": 3,
+        "title": "Update website",
+        "description": "Add new content and fix broken links",
+        "due_date": "2023-03-07",
+        "priority": "3"
+    },
+    {
+        "id": 4,
+        "title": "Send invoices",
+        "description": "Bill clients for services rendered",
+        "due_date": "2023-03-12",
+        "priority": "2"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Buy groceries",
+        "description": "Milk, bread, eggs, cheese",
+        "due_date": "2023-03-10",
+        "priority": "1"
+    },
+    {
+        "id": 2,
+        "title": "Finish project",
+        "description": "Complete coding and testing",
+        "due_date": "2023-03-15",
+        "priority": "2"
+    },
+    {
+        "id": 3,
+        "title": "Call John",
+        "description": "Discuss travel plans",
+        "due_date": "2023-03-07",
+        "priority": "3"
+    },
+    {
+        "id": 4,
+        "title": "Pay bills",
+        "description": "Electricity, water, internet",
+        "due_date": "2023-03-12",
+        "priority": "2"
+    },
+    {
+        "id": 5,
+        "title": "Doctor's Appointment",
+        "description": "Annual checkup with Dr. Smith",
+        "due_date": "2023-03-20",
+        "priority": "1"
+    },
+    {
+        "id": 6,
+        "title": "Submit Report",
+        "description": "Submit monthly sales report to manager",
+        "due_date": "2023-03-25",
+        "priority": "2"
+    },
+    {
+        "id": 7,
+        "title": "Buy Birthday Gift",
+        "description": "Buy a gift for mom's birthday",
+        "due_date": "2023-03-18",
+        "priority": "3"
+    },
+    {
+        "id": 8,
+        "title": "Schedule Meeting",
+        "description": "Schedule meeting with team for project review",
+        "due_date": "2023-03-14",
+        "priority": "2"
+    },
+    {
+        "id": 9,
+        "title": "Renew Membership",
+        "description": "Renew gym membership",
+        "due_date": "2023-03-22",
+        "priority": "1"
+    },
+    {
+        "id": 10,
+        "title": "Book Flight",
+        "description": "Book flight tickets for vacation",
+        "due_date": "2023-03-28",
+        "priority": "3"
+    }
+]

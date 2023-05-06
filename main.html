@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TO-DO LIST</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style src="style.css"></style>
+</head>
+
+<body>
+    <!-- Side menu buttons -->
+    <div class="sidenav">
+        <a href="personal_goals.html">Personal Goals</a>
+        <a href="work.html">Work</a>
+        <a href="tasks.html">Tasks</a>
+    </div>
+
+    <!-- Content section -->
+    <div class="main">
+        <div class="header">
+            <h1>TO-DO LIST</h1>
+        </div>
+        <main>
+            <p></p>
+            <div id="bg-container">
+                <!-- <button id="toggle-btn">Toggle Mode</button> -->
+                <button id="change-bg" onclick="changeBackground('black')">DARK MODE</button>
+                <p></p>
+                <label for="image-upload">Select Background Image from Gallery</label>
+                <input type="file" id="image-upload">
+
+
+            </div>
+        </main>
+        <script src="app.js">
+            $(document).ready(function () {
+                // Load initial data on page load
+                loadData();
+
+                // Handle sort by change event
+                $('#sort-by').on('change', function () {
+                    loadData();
+                });
+
+                // Handle form submit event
+                $('#add-item-form').on('submit', function (event) {
+                    event.preventDefault();
+                    var formData = $(this).serializeArray();
+                    var newItem = {};
+                    $.each(formData, function (index, field) {
+                        newItem[field.name] = field.value;
+                    });
+                    addItem(newItem);
+                    $(this)[0].reset();
+                });
+
+
+            });
+        </script>
+
+
+        <h1>Daily Motivational Quotes</h1>
+        <ul>
+            <li>"Believe you can and you're halfway there."</li>
+            <li>"Success is not final, failure is not fatal: It is the courage to continue that counts."</li>
+            <li>"The only way to do great work is to love what you do."</li>
+            <li>"Don't watch the clock; do what it does. Keep going."</li>
+            <li>"The future belongs to those who believe in the beauty of their dreams."</li>
+            <li>"You don't have to be great to start, but you have to start to be great."</li>
+            <li>"The greatest glory in living lies not in never falling, but in rising every time we fall."</li>
+            <li>"Success is the sum of small efforts, repeated day in and day out."</li>
+            <li>"A goal without a plan is just a wish."</li>
+            <li>"Believe in yourself and all that you are. Know that there is something inside you that is greater than
+                any obstacle."</li>
+        </ul>
+        <script src="app.js"></script>
+        <style src="style.css"></style>
+
+
+    </div>
+</body>
+
+</html>
